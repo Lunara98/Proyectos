@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script src="./Calculadora/codigocalculadora.js"></script>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <p>Introduzca dos números:</p>
+
+    <input type="number" name= "numero1" id= "n1" /><br>
+    <input type="number" name= "numero2" id= "n2" /><br>
+    
+    <p>
+    <button onclick="resultadosuma()" >+</button>
+    <button onclick="resultadoresta()" >-</button>
+    <button onclick="resultadomultiplicacion()" >x</button>
+    <button onclick="resultadodivision()" >/</button>
+    </p>
+
+    <p>Tu resultado es: <span id="resultad"></span></p>
+</body>
+</html>

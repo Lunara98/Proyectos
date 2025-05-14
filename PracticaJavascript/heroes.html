@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEROES!</title>
+    <script src="./JSheroes/heroes.js"></script>
+    <link rel="stylesheet" href="./jsheroes/style.css">
+</head>
+<body>
+    <section id="seleccionar-heroe">
+        <h1 class="titulo">HEROES! 🛡 🪓 🗡</h1>
+
+        <h2>Elige tu heroe:</h2>
+
+            <label class = "tarjetaHeroes" for="akai">Akai</label>    
+            <input type="radio" name="heroe" id="akai" />
+            
+            <label class = "tarjetaHeroes" for="midori">Midori</label>
+            <input type="radio" name="heroe" id="midori" />
+            
+            <label class = "tarjetaHeroes" for="aoi">Aoi</label>
+            <input type="radio" name="heroe" id="aoi"/>
+            
+            <button id="boton-heroes">Seleccionar</button>
+    </section>
+
+    <section id="seleccionar-ataque">
+        <h1 class="titulo">HEROES! 🛡 🪓 🗡</h1>
+        
+        <h2>Elige tu ataque:</h2>
+        <p>Tu heroe <span id="heroe-jugador"></span> tiene <span id="vidas-jugador">5</span> vidas</p>
+        <p>El heroe enemigo <span id="heroe-enemigo"></span> tiene <span id="vidas-enemigo">5</span> vidas</p>
+            <p>
+                <button id="boton-sword">Sword 🗡</button>
+                <button id="boton-axe">Axe 🪓</button>
+                <button id="boton-bow">Bow 🏹</button>
+            </p>
+    </section>
+
+    <section id="mensajes">
+    </section>
+
+    <section id="Volver-a-Jugar">
+        <button id="boton-vj">Volver a Jugar</button>
+    </section>
+</body>
+</html>
